@@ -6,7 +6,7 @@ personality_prompt = input("Please enter your desired bot type: ")
 user_prompt = input("Please enter your prompt: ")
 
 response = client.chat.completions.create(
-    model="gpt-4o",
+    model="gpt-3.5-turbo",
     messages=[
         {
             "role": "system",
